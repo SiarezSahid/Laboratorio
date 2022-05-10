@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form action="" method="GET">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nom" required="name"> <br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apelli" required="name"> <br>
+        <label for="sexo">Sexo: </label>
+        <input type="radio" name="sex" id="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sex" id="mujer">
+        <label for="mujer">Mujer</label>
+        <br><label for="correo">Correo: </label>
+        <input type="text" name="corre" id="correo"> <br>
+        <label for="poblacion">Poblacion: </label>
+        <select name="pobla" id="poblacion">
+            <option> Santa María</option>
+            <option> Belén</option>
+            <option>Andalagalá </option>
+            <option>Tinogasta</option>
+        </select>
+        <br> <label for="descripcion">Descripcion: </label>
+        <textarea name="descri" id="descripcion" cols="50" rows="5"></textarea> <br> <br>
+        <input type="checkbox" name="verif1" id="verificacion1">
+        <label for="verificacion1">Deseo recibir informacion sobre novedades y ofertas.</label> <br>
+        <input type="checkbox" name="verif2" id="verificacion2">
+        <label for="verificacion2">Declaro haber leido condiciones generales del programa y la normativa sobre
+            proteccion de datos.</label>
+        <br>
+
+        <button type="submit">Enviar </button>
+    </form>
+</body>
+
+</html>

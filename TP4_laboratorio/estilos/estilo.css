@@ -1,0 +1,30 @@
+body{ 
+color:#0000ff ;
+background-color: #50a850;
+font-family: 'Georgia', Cambria, serif;
+font-size: 16 px;
+}
+h1{
+color: #FF0000 ;   
+font-size: 32 px ;
+font-family: 'Verdana', Calibri, sans-serif;
+}
+h2{
+color:#AA0000 ;
+font-family: 'Verdana', Calibri, sans-serif;
+font-size:  24 px ;
+}
+.lista1{
+color: #006600 ;
+}
+.intweb{
+font-size: 20 px;
+font-weight: bold;    
+}
+.texto{
+color:#FFF ;
+background-color: #000;
+font-style: italic;
+}
+
+
